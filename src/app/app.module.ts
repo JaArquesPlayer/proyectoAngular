@@ -2,21 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
-import { PreciosComponent } from './components/precios/precios.component';
-import { ProtegidaComponent } from './components/protegida/protegida.component';
-
 import { APP_ROUTING } from './app.routes';
+import { AppComponent } from './app.component';
+
+import { HomeComponent } from './components/home/home.component';
+import { UsuarioComponent } from './components/usuario/usuario.component';
+import { UsuarioEditarComponent } from './components/usuario/usuario-editar.component';
+import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.component';
+import { UsuarioNuevoComponent } from './components/usuario/usuario-nuevo.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     HomeComponent,
-    PreciosComponent,
-    ProtegidaComponent
+    UsuarioComponent,
+    UsuarioEditarComponent,
+    UsuarioDetalleComponent,
+    UsuarioNuevoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

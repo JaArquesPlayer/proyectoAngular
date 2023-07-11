@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-usuario-editar',
   template: `
     <p>
-      home works!
+      usuario-editar works!
     </p>
   `,
   styles: []
 })
-export class HomeComponent implements OnInit {
+export class UsuarioEditarComponent implements OnInit {
 
   constructor() { }
 
