@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-usuario-detalle',
-  template: `
-    <p>
-      usuario-detalle works!
-    </p>
-  `,
+  templateUrl: './usuario-detalle.component.html',
   styles: []
 })
 export class UsuarioDetalleComponent implements OnInit {
