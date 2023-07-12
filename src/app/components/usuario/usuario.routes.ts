@@ -1,8 +1,8 @@
 import {Routes} from '@angular/router';
 
-import {UsuarioDetalleComponent} from './usuario-detalle.component';
-import {UsuarioNuevoComponent} from './usuario-nuevo.component';
-import {UsuarioEditarComponent} from './usuario-editar.component';
+import {UsuarioDetalleComponent} from './usuario-hijos/usuario-detalle.component';
+import {UsuarioNuevoComponent} from './usuario-hijos/usuario-nuevo.component';
+import {UsuarioEditarComponent} from './usuario-hijos/usuario-editar.component';
 
 export const USUARIO_ROUTES: Routes = [
       {path: 'nuevo', component: UsuarioNuevoComponent},

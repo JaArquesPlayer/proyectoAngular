@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 
 import { HomeComponent } from './components/home/home.component';
 import { UsuarioComponent } from './components/usuario/usuario.component';
-import { UsuarioEditarComponent } from './components/usuario/usuario-editar.component';
-import { UsuarioDetalleComponent } from './components/usuario/usuario-detalle.component';
-import { UsuarioNuevoComponent } from './components/usuario/usuario-nuevo.component';
+import { UsuarioEditarComponent } from './components/usuario/usuario-hijos/usuario-editar.component';
+import { UsuarioDetalleComponent } from './components/usuario/usuario-hijos/usuario-detalle.component';
+import { UsuarioNuevoComponent } from './components/usuario/usuario-hijos/usuario-nuevo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
